@@ -1,0 +1,28 @@
+.intro__text-author {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.42;
+    text-align: right;
+    color: #FFFFFF;
+    width: 45%;
+    left: 148px;
+}
+
+@media screen and (min-width: 524px) and (max-width: 992px){
+
+
+    .intro__text-author{
+        max-width: 95%;
+    }
+}
+
+@media screen and (max-width: 523px){
+
+    .intro__text-author{
+        font-size: 24px;
+        max-width: 95%;
+        margin: 0 0 10px;
+    }
+}

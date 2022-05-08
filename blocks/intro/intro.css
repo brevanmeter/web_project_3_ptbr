@@ -1,0 +1,19 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+@media screen and (min-width: 524px) and (max-width: 992px){
+    .intro{
+            margin: 0 auto 64px;
+            max-width: 95%;
+        }
+    }
+    
+    @media screen and (max-width: 523px){
+        .intro{
+            margin: 0 auto 38px;
+            max-width: 90%;
+        } 
