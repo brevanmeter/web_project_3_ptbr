@@ -16,10 +16,11 @@
         line-height: 1.09;
         width: 100%;
     }
+}
 
-    @media screen and (min-width: 524px) and (max-width: 992px) {
+@media screen and (min-width: 524px) and (max-width: 992px) {
 
-        .intro__title {
-            width: 97%
-        }
+    .intro__title {
+        width: 97%
     }
+}

@@ -1,13 +1,13 @@
 .place {
     width: 62%;
-    display: flex;  
+    display: flex;
 }
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 720px) {
 
-    .place{
+    .place {
         display: flex;
         flex-direction: column;
-        min-width: 100%;   
+        min-width: 100%;
     }
 }

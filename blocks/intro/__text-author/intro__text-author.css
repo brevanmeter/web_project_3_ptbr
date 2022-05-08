@@ -10,17 +10,17 @@
     left: 148px;
 }
 
-@media screen and (min-width: 524px) and (max-width: 992px){
+@media screen and (min-width: 524px) and (max-width: 992px) {
 
 
-    .intro__text-author{
+    .intro__text-author {
         max-width: 95%;
     }
 }
 
-@media screen and (max-width: 523px){
+@media screen and (max-width: 523px) {
 
-    .intro__text-author{
+    .intro__text-author {
         font-size: 24px;
         max-width: 95%;
         margin: 0 0 10px;

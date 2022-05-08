@@ -9,18 +9,18 @@
     padding-top: 42px;
 }
 
-@media screen and (min-width: 524px) and (max-width: 992px){
+@media screen and (min-width: 524px) and (max-width: 992px) {
 
 
-    .intro__text-paragraph{
+    .intro__text-paragraph {
         max-width: 98%;
     }
 }
 
-@media screen and (max-width: 523px){
+@media screen and (max-width: 523px) {
 
 
-    .intro__text-paragraph{
+    .intro__text-paragraph {
         max-width: 100%;
     }
 }
