@@ -4,3 +4,9 @@
     border-radius: 0px;
     display: flex;
 }
+
+@media screen and (max-width: 524px) {
+    .header__logo {
+        max-width: 200px;
+    }
+}

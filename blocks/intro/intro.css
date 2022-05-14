@@ -4,15 +4,16 @@
     flex-wrap: wrap;
     align-content: center;
 }
-@media screen and (min-width: 524px) and (max-width: 992px) {
+
+@media screen and (max-width: 768px) {
     .intro {
-        margin: 0 auto 64px;
-        max-width: 95%;
+        max-width: 94%;
     }
 }
-@media screen and (max-width: 523px) {
+
+@media screen (max-width: 524px) {
     .intro {
-        margin: 0 auto 38px;
+        margin: 0 auto;
         max-width: 90%;
     }
 }

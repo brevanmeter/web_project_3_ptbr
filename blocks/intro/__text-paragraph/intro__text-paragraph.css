@@ -5,22 +5,20 @@
     font-size: 16px;
     line-height: 1.63;
     color: #FFFFFF;
-    width: 72%;
+    width: 70%;
     padding-top: 42px;
 }
 
-@media screen and (min-width: 524px) and (max-width: 992px) {
-
-
+@media screen and (max-width: 768px) {
     .intro__text-paragraph {
-        max-width: 98%;
+        max-width: 100%;
     }
 }
 
-@media screen and (max-width: 523px) {
-
-
+@media screen and (max-width: 524px) {
     .intro__text-paragraph {
         max-width: 100%;
+        font-size: 16px;
+        margin-top: 70px;
     }
 }

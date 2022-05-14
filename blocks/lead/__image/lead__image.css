@@ -6,7 +6,7 @@
     filter: grayscale(100%);
 }
 
-@media screen and (min-width: 524px) and (max-width: 992px) {
+@media screen (max-width: 524px) {
     .lead__image {
         max-width: 100%;
     }

@@ -1,5 +1,15 @@
-.cover {
-    width: 92%;
-    margin: 0 auto;
-    margin-top: 92px;
+.cover{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    max-width: 92.5%;
+    margin: 0 auto 92px;
+}
+
+@media screen and (max-width: 524px) {
+    .cover {
+        margin-bottom: 64px;
+        max-width: 100%;
+    }
 }

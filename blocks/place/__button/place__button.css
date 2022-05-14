@@ -18,3 +18,20 @@
 .place__button:hover {
     background-color: #0063D2;
 }
+
+@media screen and (max-width: 768px) {
+    .place__button {
+        max-width: 90%;
+        text-align: center;
+        padding: 0px;
+    }
+}
+
+@media screen (max-width: 524px) {
+    .place__button {
+    max-width: 90%
+    }
+}
+
+
+

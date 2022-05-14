@@ -2,21 +2,18 @@
    max-width: 92.5%;
    padding-top: 92px;
    margin: 0 auto 92px;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: 1fr 1fr;
+   justify-content: end;
+   row-gap: 16px;
+   column-gap: 16px;  
 }
 
-@media screen and (min-width: 524px) and (max-width: 992px) {
-
+@media screen and (max-width: 524px) {
 
    .photo-grid {
       max-width: 90%;
-      margin: 0 auto 88px;
-   }
-}
-
-@media screen and (max-width: 523px) {
-
-   .photo-grid {
-      max-width: 85%;
-      margin: 0 auto 62px;
+      grid-template-columns: 1fr;
    }
 }

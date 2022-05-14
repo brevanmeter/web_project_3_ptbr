@@ -1,0 +1,15 @@
+.cover__image {
+    width: 100%;
+    opacity: 0.3;
+    transition: opacity 0.5s ease-in;
+}
+
+.cover__image:hover {
+    opacity: 0.8;
+}
+
+@media screen (max-width: 524px) {
+    .cover__image {
+        max-width: 100%;
+    }
+}
