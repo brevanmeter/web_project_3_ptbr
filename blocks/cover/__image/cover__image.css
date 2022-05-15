@@ -8,7 +8,7 @@
     opacity: 0.8;
 }
 
-@media screen (max-width: 524px) {
+@media screen (max-width: 425px) {
     .cover__image {
         max-width: 100%;
     }

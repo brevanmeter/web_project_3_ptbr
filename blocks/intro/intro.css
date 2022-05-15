@@ -5,15 +5,21 @@
     align-content: center;
 }
 
+@media screen and (max-width: 1024px) {
+    .intro {
+        max-width: 92%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .intro {
         max-width: 94%;
     }
 }
 
-@media screen (max-width: 524px) {
+@media screen and (max-width: 425px) {
     .intro {
-        margin: 0 auto;
         max-width: 90%;
+        margin-bottom: 64px;
     }
 }

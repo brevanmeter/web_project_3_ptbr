@@ -31,7 +31,7 @@
     }
 }
 
-@media screen (max-width: 524px) {
+@media screen (max-width: 425px) {
     .cover__button {
         max-width: 90%;
     }

@@ -2,7 +2,7 @@
     padding-left: 40px;
 }
 
-@media screen (max-width: 524px) {
+@media screen (max-width: 425px) {
     .place__text {
         max-width: 100%;
     }

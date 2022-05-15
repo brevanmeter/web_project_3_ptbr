@@ -3,10 +3,27 @@
     display: flex;
 }
 
-@media screen and (max-width: 524px) {
-
+@media screen and (max-width: 1024px) {
     .place {
-        display: flex;
-        flex-direction: column;
+        grid-template-columns: 440px 456px;
+        gap: 40px 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        grid-template-columns: 340px 352px;
+        column-gap: 28px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .place {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 32px;
+        max-width: 100%;
+        padding: 0;
+        margin: 0 0 48px 0;
     }
 }

@@ -10,10 +10,24 @@
    column-gap: 16px;  
 }
 
-@media screen and (max-width: 524px) {
-
+@media screen and (max-width: 1024px) {
    .photo-grid {
-      max-width: 90%;
-      grid-template-columns: 1fr;
+       max-width: 92%;
+       grid-template-columns: 1fr 1fr 1fr;
+       gap: 14px 14px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .photo-grid {
+       max-width: 94%;
+       grid-template-columns: repeat(2, 352px);
+   }
+}
+
+@media screen and (max-width: 524px) {
+   .photo-grid {
+       max-width: 90%;
+       grid-template-columns: 1fr;
    }
 }
