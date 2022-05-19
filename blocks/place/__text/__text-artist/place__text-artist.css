@@ -1,0 +1,6 @@
+.place__text-artist {
+        grid-area: place__text-artist;
+        font-size: 18px;
+        line-height: 1.22;
+      }
+

@@ -22,17 +22,3 @@
 .cover__button:hover {
     background-color: #0063D2;
 }
-
-@media screen and (max-width: 768px) {
-    .cover__button {
-        max-width: 90%;
-        text-align: center;
-        padding: 0px;
-    }
-}
-
-@media screen (max-width: 425px) {
-    .cover__button {
-        max-width: 90%;
-    }
-}

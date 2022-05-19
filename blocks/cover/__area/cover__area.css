@@ -9,10 +9,3 @@
     z-index: 3;
     row-gap: 32px;
 }
-
-@media screen and (max-width: 425px){
-
-    .cover__area{
-        row-gap:16px;
-    }
-}

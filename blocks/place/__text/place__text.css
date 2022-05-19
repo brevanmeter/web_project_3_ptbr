@@ -1,9 +1,6 @@
 .place__text {
-    padding-left: 40px;
+    grid-area: place__text;
+    margin: 0;
+    align-self: flex-end;
 }
 
-@media screen (max-width: 425px) {
-    .place__text {
-        max-width: 100%;
-    }
-}

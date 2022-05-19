@@ -13,25 +13,17 @@
     font-weight: 600;
     padding: 13px 20px;
     transition: background-color 0.3s ease-in;
+    grid-area: place__button;
 }
 
 .place__button:hover {
     background-color: #0063D2;
+    cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
-    .place__button {
-        max-width: 90%;
-        text-align: center;
-        padding: 0px;
-    }
+.place__button a {
+    color: white;
+    text-decoration: none;
 }
-
-@media screen (max-width: 425px) {
-    .place__button {
-    max-width: 90%;
-    }
-}
-
 
 

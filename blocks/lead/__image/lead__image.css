@@ -1,13 +1,19 @@
 .lead__image {
-    max-width: 100%;
+    width: 100%;
     border-radius: 0px;
     padding-top: 64px;
     padding-bottom: 92px;
     filter: grayscale(100%);
 }
 
-@media screen (max-width: 425px) {
+@media screen and (max-width: 980px) {
     .lead__image {
-        max-width: 100%;
+      margin-top: 69px;
     }
-}
+  }
+  
+  @media screen and (max-width: 777px) {
+    .lead__image {
+      margin-top: 40px;
+    }
+  }

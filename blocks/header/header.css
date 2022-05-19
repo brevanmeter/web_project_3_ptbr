@@ -1,25 +1,4 @@
 .header {
-    display: flex;
-    justify-content: center;
-    padding-top: 34px;
-}
-
-@media screen and (max-width: 1024px) {
-    .header {
-        max-width: 91%;
-        margin-bottom: 50px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .header {
-        max-width: 94%;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .header {
-        max-width: 90%;
-        margin-top: 20px;
-    }
+    text-align: center;
+    margin: 34px 0 auto;
 }

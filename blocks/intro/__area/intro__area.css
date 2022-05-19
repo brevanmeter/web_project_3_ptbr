@@ -1,0 +1,11 @@
+.intro__area {
+    margin-top: 40px;
+    max-width: 720px;
+    margin-left: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .intro__area {
+        margin-top: 9px;
+    }
+}

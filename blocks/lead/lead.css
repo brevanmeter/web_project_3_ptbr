@@ -3,25 +3,18 @@
   flex-direction: column;
   align-items: center;
   align-content: center;
-  max-width: 77%;
+  width: 77%;
   margin: 0 auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 980px) {
   .lead {
-    max-width: 92%;
+    width: 100%;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 777px) {
   .lead {
-    max-width: 100%;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .lead {
-    max-width: 100%;
-    margin-bottom: 64px;
+    margin-top: 51px;
   }
 }

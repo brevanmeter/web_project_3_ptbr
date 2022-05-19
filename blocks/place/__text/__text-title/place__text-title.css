@@ -1,0 +1,6 @@
+.place__text-title {
+    grid-area: place__text-title;
+    font-size: 12px;
+    line-height: 1.21;
+    color: #aaaaaa;
+}

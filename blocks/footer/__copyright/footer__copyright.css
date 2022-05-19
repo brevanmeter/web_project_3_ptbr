@@ -2,8 +2,3 @@
     text-align: center;
 }
 
-@media screen (max-width: 524px) {
-    .footer__copyright {
-        font-size: 14px;
-    }
-}

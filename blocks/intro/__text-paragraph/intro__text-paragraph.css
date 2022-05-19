@@ -1,30 +1,16 @@
 .intro__text-paragraph {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.63;
-    color: #FFFFFF;
-    width: 70%;
+    width: 96%;
     padding-top: 42px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 777px) {
     .intro__text-paragraph {
-        max-width: 68%;
+      margin-top: 62px;
     }
-}
+  }
 
-@media screen and (max-width: 768px) {
-    .intro__text-paragraph {
-        max-width: 100%;
-    }
-}
 
-@media screen and (max-width: 425px) {
-    .intro__text-paragraph {
-        max-width: 100%;
-        font-size: 15px;
-        margin-bottom: 32px;
-    }
-}

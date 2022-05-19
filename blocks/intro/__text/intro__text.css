@@ -1,32 +1,15 @@
 .intro__text {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 1.42;
-    color: #FFFFFF;
-    height: 136px;
-    width: 722px;
     padding-top: 40px;
-    text-align: left;
+    width: 96%;
 }
 
-@media screen and (max-width: 1024px) {
-    .intro__text {
-        max-width: 75%;
+@media screen and (max-width: 777px) {
+    .intro__quote {
+      font-size: 24px;
+      line-height: 1.25;
     }
-}
-
-@media screen and (max-width: 768px) {
-    .intro__text {
-        max-width: 100%;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .intro__text {
-        font-size: 24px;
-        margin-top: 40px;
-        margin-bottom: 32px;
-    }
-}
+  }
