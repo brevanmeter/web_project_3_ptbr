@@ -13,6 +13,7 @@
 
 .cover__button:hover {
     background-color: #0063D2;
+    cursor: pointer;
 }
 
 .cover__button a {
@@ -22,7 +23,8 @@
 
   @media screen and (max-width: 777px) {
     .cover__button {
-      
+      margin-top: 0;
+      margin-bottom: 45px;
     }
   }
 

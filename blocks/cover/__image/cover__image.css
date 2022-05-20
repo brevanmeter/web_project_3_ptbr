@@ -8,3 +8,9 @@
     opacity: 0.8;
 }
 
+@media screen and (max-width: 767px) {
+    .cover__image {
+      height: 254px;
+      gap: 16px;
+    }
+  }
