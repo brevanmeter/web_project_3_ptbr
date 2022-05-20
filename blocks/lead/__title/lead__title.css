@@ -2,10 +2,8 @@
     font-size: 96px;
     font-weight: 900;
     line-height: 1.04;
-    letter-spacing: 0em;
     text-align: center;
     width: 90%;
-    padding-bottom: 32px;
 }
 
 @media screen and (max-width: 777px) {

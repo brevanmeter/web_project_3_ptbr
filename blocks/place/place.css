@@ -14,6 +14,27 @@
     margin-top: 0;
   }
 
+  @media screen and (max-width: 980px) {
+    .place {
+      margin-top: 72px;
+      column-gap: 28px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .place {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "place__title"
+        "place__text"
+        "place__image"
+        "place__paragraph"
+        "place__button";
+      gap: 30px;
+      margin-top: 50px;
+    }
+  }
+
 
 
 

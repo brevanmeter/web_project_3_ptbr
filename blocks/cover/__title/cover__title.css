@@ -3,6 +3,12 @@
     font-weight: 900;
     line-height: 1.05;
     color: #fffdfd;
-    text-align: center;
-    margin: 0 auto;
 }
+
+@media screen and (max-width: 767px) {
+    .cover__title {
+      font-weight: 900;
+      font-size: 32px;
+      margin-top: 64px;
+    }
+  }

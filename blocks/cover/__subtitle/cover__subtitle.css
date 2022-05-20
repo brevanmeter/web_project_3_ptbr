@@ -6,8 +6,15 @@
     display: flex;
     flex-direction: column;
     color: #fffdfd;
-    padding-bottom: 32px;
 }
+
+@media screen and (max-width: 777px) {
+    .cover__text {
+      font-weight: 400;
+      font-size: 14px;
+      margin-top: 16px;
+    }
+  }
 
 
 
