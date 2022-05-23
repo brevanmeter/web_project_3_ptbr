@@ -1,8 +1,7 @@
 .lead__image {
     width: 100%;
     border-radius: 0px;
-    padding-top: 64px;
-    padding-bottom: 92px;
+    margin-top: 64px;
     filter: grayscale(100%);
 }
 
