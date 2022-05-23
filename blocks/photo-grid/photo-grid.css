@@ -1,6 +1,7 @@
 .photo-grid {
-  width: 92.5%;
-  margin: 0 auto 92px;
+  width: 92%;
+  margin-top: 92px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr 1fr;
@@ -11,7 +12,7 @@
 @media screen and (max-width: 980px) {
   .photo-grid {
     grid-template-columns: 1fr 1fr;
-    width: 94%;
+    width: 85%;
     margin-top: 64px;
   }
 }
