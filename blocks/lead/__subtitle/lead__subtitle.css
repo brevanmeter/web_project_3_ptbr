@@ -1,5 +1,9 @@
 .lead__subtitle {
   font-family: 'Inter', sans-serif;
+  /*Julia, eu questionei o Thiago sobre definir as fontes em todos
+  os blocos de texto, e ele disse que nao e necessário se ja esta sendo
+  definido na page, e a fonte e diferente em toda a pagina. Eu alterei
+  mas se voce puder comentar se e por algum outro motivo, agradeço.*/
   font-size: 30px;
   font-weight: 400;
   line-height: 1.2;
@@ -16,7 +20,6 @@
 
 @media screen and (max-width: 777px) {
   .lead__subtitle {
-    
     font-size: 30px;
     line-height: 1.25;
     width: 95%;
