@@ -1,12 +1,12 @@
 .place__text {
-    grid-area: place__text;
-    margin: 0;
-    align-self: flex-end;
+  grid-area: place__text;
+  margin: 0;
+  align-self: flex-end;
+  font-family: 'Inter', sans-serif;
 }
 
 @media screen and (max-width: 767px) {
-    .place__text {
-      padding: 0 18px;
-    }
+  .place__text {
+    padding: 0 18px;
   }
-
+}

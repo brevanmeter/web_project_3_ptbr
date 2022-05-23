@@ -1,12 +1,13 @@
 .place__text-artist {
-        grid-area: place__text-artist;
-        font-size: 18px;
-        line-height: 1.22;
-      }
+  grid-area: place__text-artist;
+  font-size: 18px;
+  line-height: 1.22;
+  font-family: 'Inter', sans-serif;
+}
 
 @media screen and (max-width: 767px) {
   .place__text-artist {
     width: 40%;
     margin: 0;
-  } 
+  }
 }

@@ -1,21 +1,19 @@
 .cover__subtitle {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.22;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    color: #fffdfd;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.22;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: #fffdfd;
 }
 
 @media screen and (max-width: 777px) {
-    .cover__text {
-      font-weight: 400;
-      font-size: 14px;
-      margin-top: 16px;
-      line-height: 1.06;
-    }
+  .cover__text {
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 16px;
+    line-height: 1.06;
   }
-
-
-
+}
