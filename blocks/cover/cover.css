@@ -1,22 +1,25 @@
 .cover {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 92%;
-    margin: 0 auto;
-    margin-top: 92px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 92.5%;
+  margin: 0 auto;
+  margin-top: 92px;
+}
+
+.cover:hover >.cover__overlay {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 980px) {
-    .cover {
-      width: 100%;
-    }
+  .cover {
+    width: 100%;
   }
-  
-  @media screen and (max-width: 767px) {
-    .cover {
-      margin-top: 64px;
-    }
-  }
+}
 
+@media screen and (max-width: 767px) {
+  .cover {
+    margin-top: 64px;
+  }
+}
