@@ -2,6 +2,7 @@
     width: 100%;
     opacity: 0.3;
     transition: opacity 0.5s ease-in;
+    height: 740px;
 }
 
 .cover__image:hover {
