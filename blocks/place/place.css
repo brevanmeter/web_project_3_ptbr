@@ -16,7 +16,11 @@
 @media screen and (max-width: 980px) {
   .place {
     margin-top: 72px;
-    column-gap: 28px;
+    grid-template-areas: "place__title place__text"
+                       "place__image place__paragraphs"
+                       "place__button place__paragraphs"
+                       ".      place__paragraphs";
+        grid-column-gap: 28px;
   }
 }
 
