@@ -3,9 +3,8 @@
   grid-template-columns: 1fr 1.05fr;
   grid-template-areas:
     "place__title place__text"
-    "place__image place__paragraph"
-    "place__button place__paragraph"
-    "auto place__paragraph";
+    "place__image place__paragraphs"
+    "place__button place__paragraphs";
   margin-top: 80px;
   gap: 48px 40px;
 }
@@ -28,7 +27,7 @@
       "place__title"
       "place__text"
       "place__image"
-      "place__paragraph"
+      "place__paragraphs"
       "place__button";
     gap: 30px;
     margin-top: 50px;

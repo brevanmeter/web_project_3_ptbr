@@ -1,5 +1,10 @@
 .footer__copyright {
     text-align: center;
     font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    margin-bottom: 24px;
+    color: #FFFFFF;
 }
-
